@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+header{
+    height: 14vh;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+nav{
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-left: 65%;
+    text-indent: 40px;
+    margin-top: -65px;
+    font-size: 23px;
+}
+
+.home{
+    background: url(image/home-bg.jpg);
+    background-repeat: no-repeat;
+    height: 120vh;
+    background-size: cover;   
+}
+.content{
+    margin-left: 12%;
+}
+.head{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+}.para{
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+button{
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    height: 24px;
+    width: 90px;
+    border-color: blue;
+    margin-left: 14%;
+}
+.image2{
+    height: 75vh;
+    margin-left: 10%;
+}
+.content2{
+    height: 30vh;
+    display: flex;
+}
+.image2{
+    height: 90vh;
+}
+.head2{
+    margin-left: 30%;
+    font-size: 40px;
+    margin-top: 15%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para2{
+    margin-left: 20%;
+    font-size: 25px;
+    margin-top: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.image3{
+    margin-top: 30%;
+    margin-left: 45%;
+}
+.content3{
+    height: 50vh;
+    display: flex;
+}
+.image4{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.head3{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 12%;
+}
+.para3{
+    margin-right: 10%;
+    font-size: 20px;
+
+}
+.image5{
+    margin-left: 8%;
+    margin-top: 3%;
+
+}
+.head4{
+    font-size:20px;
+    margin-left: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.para4{
+    font-size: 21px;
+}
+.image6{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.head5{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+.para5{
+    font-size: 20px;
+}
+.image7{
+    margin-left: 8%;
+    margin-top: 3%;
+}
+.head6{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.para6{
+    font-size: 20px;
+}
+.col-4{
+    height: 150vh;
+}
+.t2{
+    text-align: center;
+}
+.col-4 h1{
+    font-style: italic;
+    margin-left: 42%;
+    font-size: 25px;
+}
+.menu1 img{
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.menu1 h2{
+    width: 100%;
+    margin-left: 45px;
+}
+.menu2 img{
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.menu2 h2{
+    width: 100%;
+    margin-left: 45px;
+}
+.col-5{
+    height: 120vh;
+    width: 100%;
+}
+.gallery{
+    text-align: center;
+}
+.col-5 h1{
+    font-style: italic;
+    margin-left: 45%;
+    font-size: 25px;
+}
+.gallery1 img{
+    margin-left: 120px;
+    margin-top: 100px;
+    height: 200px;
+}
+.gallery2 img{
+    margin-left: 110px;
+    margin-top: 100px;
+    height: 200px ;
+}
+.col-6{
+    height: 150vh;
+}
+.team{
+    text-align: center;
+}
+.col-6 h1{
+    font-style: italic;
+    margin-left: 45%;
+    font-size: 25px;
+}
+.team1 img{
+    margin-left: 110px;
+    margin-top: 100px;
+    height: 300px;
+}
+.team1 h2{
+    width: 100%;
+    margin-left: 45px;
+}
+.team2 img{
+    margin-left: 110px;
+    margin-top: 100px;
+    height: 300px;
+}
+.team2 h2{
+    width: 100%;
+    margin-left: 45px;
+}
+.col-7{
+    height: 100vh;
+}
+.contact{
+    text-align: center;
+    margin-top: 100px;
+}
+.col-7 h1{
+    font-style: italic;
+    margin-left: 46%;
+    font-size: 25px;
+}
+.contact1{
+    display: flex;
+}
+.contact1 img{
+    flex-basis: 40%;
+    height: 85vh;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.box{
+    height: 350px;
+    width: 500px;
+    background-color: rgb(241, 100, 128);
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 120px;
+    border: black solid;
+}
+.box h2{
+    text-align: center;
+    margin-top: 20px;
+}
+ form input{
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    border:black  groove;
+    font-style: italic;
+    font-size: 18px;
+}
+button{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 190px;
+    height: 40px;
+    width: 120px;
+    border: 0px;
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact2 img{
+    height: 60px;
+}
+.f1{
+    display: flex;
+}
+.mail{
+    margin-left: 150px;
+}
+.call{
+    margin-left: 230px;
+}
+.chat{
+    margin-left: 230px;
+}
+.insta{
+    margin-left:250px ;
+}
+.f2{
+    display: flex;
+}
+.f2 h1{
+    font-size: 18px;
+    margin-left: 160px;
+    font-weight: bold;
+}
+.f2 h2{
+    font-size: 20px;
+    margin-left: 130px;
+    font-weight: bold;
+}
+.f2 h3{
+    font-size: 20px;
+    margin-left: 130px;
+    font-weight: bold;
+}
+.f2 h4{
+    font-size: 20px;
+    margin-left: 130px;
+    font-weight: bold;
+}
+.f3 p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left:130px;
+    font-weight: 500;
+}
+.footer{
+    height: 10vh;
+}
+.f4{
+    height: 2px;
+    width: 88%;
+    background-color: rgb(122, 120, 117);
+    margin-left: 6%;
+    margin-top: 30px;
+}
+small{
+    display: flex;
+    margin-left: 40%;
+}
+.s1{
+    font-size: 20px;
+    height: 16px;
+    width: 1px;
+    background-color: rgb(92, 95, 95);
+    margin-left: 10px;
+    margin-right: 5px;
+}
